@@ -818,3 +818,4 @@ def task10():
             return int(f[x]+1)
 
 
+print(task10())

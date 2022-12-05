@@ -102,10 +102,9 @@ a = """30
 122"""
 
 b = list(map(int,a.splitlines()))
-#b.append(0)
 b.sort()
-#b.append(b[-1]+3)
-
+b.append(b[-1]+3)
+print(b)
 def task1():
     i = 1
     j = 0
@@ -118,7 +117,7 @@ def task1():
 
     except:
         pass
-    print(i * j)
+    return i * j
 
 l = [0]
 m = []
@@ -126,8 +125,6 @@ n = []
 
 def task2():
     s = ""
-    count = 1
-    print(b)
     try:
         for x in range(len(b)+1):
             if b[x+1] - b[x] == 3:
@@ -138,7 +135,6 @@ def task2():
 
     except:
         pass
-    print(l)
     try:
         for x in b:
             if x not in l:
@@ -166,4 +162,5 @@ def task2():
             count *= 2
     return count
 
-
+#print(task1())
+print(task2())

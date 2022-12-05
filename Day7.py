@@ -594,6 +594,7 @@ shiny black bags contain 3 bright magenta bags, 2 dark indigo bags, 1 posh plum 
 pale magenta bags contain 1 clear gold bag, 5 posh fuchsia bags, 2 faded cyan bags."""
 
 b = a.splitlines()
+print(b)
 i = 0
 l = []
 k = []

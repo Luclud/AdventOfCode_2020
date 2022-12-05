@@ -1001,7 +1001,8 @@ a = """22
 68207630365411
 66189107160059"""
 
-b = list(map(int,a.splitlines()))
+b = list(map(int, a.splitlines()))
+
 
 def task17():
     for i in range(len(b)):
@@ -1012,6 +1013,7 @@ def task17():
                     m = True
         if not m:
             return b[i+25]
+
 
 def task18():
     l = task17()

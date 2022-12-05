@@ -650,9 +650,6 @@ def rec(i):
         if i+int(c[i].split(" ")[1]) < len(c):
             return rec(i+int(c[i].split(" ")[1]))
         print(len(b))
-        return "outofcode"
-    if i == len(b):
-        print("geschafft")
         return acc
 
 
@@ -671,4 +668,4 @@ def task16():
 
 
 
-print(task16())
+print(task15())
