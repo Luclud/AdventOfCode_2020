@@ -73,3 +73,4 @@ if __name__ == '__main__':
         input = f.read().split('\n')
         input = list(map(list, input))
         task1()
+        ##jgjcfcjfjcghjgccjghgh
